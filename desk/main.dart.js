@@ -41604,7 +41604,7 @@ case 2:g=o.fx
 p=$.eq
 o=$.hc
 l=$.hd
-B.aZ.xc(window,"https://daomit.github.io/chat  "+n+" "+m+" "+g+" "+p+" "+o+" "+l,n+m,u.H)
+B.aZ.xc(window,"https://daomit.github.io/chat/#/  "+n+" "+m+" "+g+" "+p+" "+o+" "+l,n+m,u.H)
 s=3
 break
 case 4:k=$.Cl+$.hc
@@ -41624,7 +41624,7 @@ o=o.fx
 n=$.eq
 m=$.hc
 l=$.hd
-B.aZ.xc(window,"https://daomit.github.io/chat "+j+" "+g+" "+p+" "+o+" "+n+" "+m+" "+l,h,u.H)
+B.aZ.xc(window,"https://daomit.github.io/chat/#/ "+j+" "+g+" "+p+" "+o+" "+n+" "+m+" "+l,h,u.H)
 s=7
 break
 case 8:A.Ky(B.r,15,B.nl,"\ucc44\ud305\ub300\uc0c1\uc774 \uace0\uac1d\uc77c \uacbd\uc6b0 \ub300\ud654\ub97c \uba3c\uc800 \uc694\uccad\ud558\uc2e4 \uc218 \uc5c6\uc2b5\ub2c8\ub2e4.",B.k,1,B.Dk)
@@ -41666,7 +41666,7 @@ j=j.fx
 m=$.eq
 l=$.hc
 k=$.hd
-B.aZ.xc(window,"https://daomit.github.io/chat "+p+"  "+i+" "+j+" "+m+" "+l+" "+k,n,u.H)
+B.aZ.xc(window,"https://daomit.github.io/chat/#/ "+p+"  "+i+" "+j+" "+m+" "+l+" "+k,n,u.H)
 return A.y(null,r)}})
 return A.z($async$$0,r)},
 $S:8}
@@ -41698,7 +41698,7 @@ j=j.fx
 o=$.eq
 n=$.hc
 m=$.hd
-B.aZ.xc(window,"https://daomit.github.io/chat "+k+"  "+l+" "+j+" "+o+" "+n+" "+m,p,u.H)}else{o=q.e
+B.aZ.xc(window,"https://daomit.github.io/chat/#/ "+k+"  "+l+" "+j+" "+o+" "+n+" "+m,p,u.H)}else{o=q.e
 j.u6(o,l,k,q.d,q.f,q.r)
 A.bA(o,!1).eD(0,null)}return A.y(null,r)}})
 return A.z($async$$0,r)},
