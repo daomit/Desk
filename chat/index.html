@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <script>
+    window.addEventListener('beforeinstallprompt', function (e) {
+      e.preventDefault();
+      return false;
+    });
+  </script>
   <!--
     If you are serving your web app in a path other than the root, change the
     href value below to reflect the base path you are serving from.
@@ -117,7 +123,7 @@
     if('serviceWorker' in navigator){
       window.addEventListener('flutter-first-frame', function(){
         navigator.serviceWorker.register('firebase-messaging-sw.js');
-        navigator.serviceWorker.register('flutter_service_worker.js?v=3096437347');
+        navigator.serviceWorker.register('flutter_service_worker.js?v=4231875187');
       });
     }
   </script>
@@ -129,7 +135,7 @@
     </div>
   </div>
   <script>
-    var serviceWorkerVersion = '3096437347';
+    var serviceWorkerVersion = '4231875187';
     var scriptLoaded = false;
 <!--    function loadMainDartJs() {-->
 <!--      if (scriptLoaded) {-->
