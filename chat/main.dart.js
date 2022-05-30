@@ -47562,7 +47562,8 @@ case 2:return A.p(null,r)}})
 return A.q($async$v6,r)},
 jB(a){var s=0,r=A.t(t.H),q=this,p,o
 var $async$jB=A.n(function(b,c){if(b===1)return A.o(c,r)
-while(true)switch(s){case 0:s=a==="connect"?2:4
+while(true)switch(s){case 0:A.a_("_socketStatus data===> "+a)
+s=a==="connect"?2:4
 break
 case 2:s=5
 return A.k(A.ex(A.bH("https://bokebitok.duckdns.org/ChatConInsert.php?ChatID="+q.e+"&User="+q.f)).W(0,new A.aqW(q),t.P),$async$jB)
