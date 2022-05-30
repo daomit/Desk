@@ -47519,7 +47519,6 @@ case 10:case 7:A.a_("socketIO OptionBuilder ===> "+q.e)
 a0=t.N
 o=t.z
 l=A.z(a0,o)
-l.l(0,"transports",A.a(["websocket"],t.s))
 l.l(0,"force new connection",!0)
 l.l(0,"autoConnect",!1)
 l.l(0,"query",A.a0(["chatID",q.e],o,o))
