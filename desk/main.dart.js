@@ -41581,7 +41581,7 @@ n=o.dy
 m=o.fr
 s=p==="0"?2:4
 break
-case 2:l="https://daomit.github.io/chat/?arg0=arg1="+n+"arg2="+m+"arg3="+o.fx+"arg4="+$.er+"arg5="+$.hc+"arg6="+$.hd
+case 2:l="https://daomit.github.io/chat/#?arg0=arg1="+n+"arg2="+m+"arg3="+o.fx+"arg4="+$.er+"arg5="+$.hc+"arg6="+$.hd
 A.ao("url1 =====> "+l)
 B.aZ.xc(window,l,n+m,u.H)
 s=3
@@ -41597,7 +41597,7 @@ s=9
 return A.G(A.YT(j,k),$async$$0)
 case 9:i=b
 h=j===""?i:j
-l="https://daomit.github.io/chat/?arg0="+j+"arg1="+o.dy+"arg2="+o.fr+"arg3="+o.fx+"arg4="+$.er+"arg5="+$.hc+"arg6="+$.hd
+l="https://daomit.github.io/chat/#?arg0="+j+"arg1="+o.dy+"arg2="+o.fr+"arg3="+o.fx+"arg4="+$.er+"arg5="+$.hc+"arg6="+$.hd
 f=window.screen
 A.ao("window.screen?.width ===> "+A.e(f==null?null:f.width))
 f=window.screen
@@ -41645,7 +41645,7 @@ s=2
 return A.G(A.YT(p,l.d),$async$$0)
 case 2:o=b
 n=p===""?o:p
-m="https://daomit.github.io/chat/?arg0="+p+"arg1=arg2="+l.fr+"arg3="+l.fx+"arg4="+$.er+"arg5="+$.hc+"arg6="+$.hd
+m="https://daomit.github.io/chat/#?arg0="+p+"arg1=arg2="+l.fr+"arg3="+l.fx+"arg4="+$.er+"arg5="+$.hc+"arg6="+$.hd
 A.ao("url3 =====> "+m)
 B.aZ.xc(window,m,n,u.H)
 return A.y(null,r)}})
@@ -41674,7 +41674,7 @@ l=q.c
 k=q.a
 if(m===0){k.ax.aJ(0)
 p=l===""?"":l
-o="https://daomit.github.io/chat/?arg0="+l+"arg1=arg2="+k.fr+"arg3="+k.fx+"arg4="+$.er+"arg5="+$.hc+"arg6="+$.hd
+o="https://daomit.github.io/chat/#?arg0="+l+"arg1=arg2="+k.fr+"arg3="+k.fx+"arg4="+$.er+"arg5="+$.hc+"arg6="+$.hd
 A.ao("url4 =====> "+o)
 B.aZ.xc(window,o,p,u.H)}else{n=q.e
 k.u6(n,m,l,q.d,q.f,q.r)
