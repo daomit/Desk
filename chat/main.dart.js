@@ -45884,7 +45884,7 @@ while(true)switch(s){case 0:q.r=$.aAp+$.Du
 s=2
 return A.p(q.tS(),$async$mQ)
 case 2:A.ae("loaddata roomChatID ===> "+q.f)
-A.hP("chat update(3)")
+A.hP("chat update(5)")
 s=3
 return A.p(q.qr(q.f),$async$mQ)
 case 3:s=4
@@ -46024,7 +46024,7 @@ return A.v($async$jk,r)},
 xt(){var s=0,r=A.w(t.H),q=this,p
 var $async$xt=A.q(function(a,b){if(a===1)return A.t(b,r)
 while(true)switch(s){case 0:B.c.sn(q.y,0)
-p=A.ca("http://bokebitok.duckdns.org:4000/ChatExceptSelect.php"+("?ChatID="+q.f+"&SetRoomUser="+q.r))
+p=A.ca("https://bokebitok.duckdns.org:4000/ChatExceptSelect.php"+("?ChatID="+q.f+"&SetRoomUser="+q.r))
 A.hP(p.i(0))
 A.ae("chatExceptSelect url ===> "+p.i(0))
 s=2
@@ -46034,7 +46034,7 @@ return A.u(null,r)}})
 return A.v($async$xt,r)},
 xq(){var s=0,r=A.w(t.H),q=this,p
 var $async$xq=A.q(function(a,b){if(a===1)return A.t(b,r)
-while(true)switch(s){case 0:p=A.ca("http://bokebitok.duckdns.org:4000/ChatExceptDelete.php"+("?ChatID="+q.f))
+while(true)switch(s){case 0:p=A.ca("https://bokebitok.duckdns.org:4000/ChatExceptDelete.php"+("?ChatID="+q.f))
 A.ae("chatExceptDelete url ===> "+p.i(0))
 s=2
 return A.p(A.h9(p).a5(0,new A.anC(),t.P),$async$xq)
@@ -46044,7 +46044,7 @@ xs(){var s=0,r=A.w(t.H),q=this,p,o,n,m
 var $async$xs=A.q(function(a,b){if(a===1)return A.t(b,r)
 while(true)switch(s){case 0:p=q.y,o=t.P,n=0
 case 2:if(!(n<p.length)){s=4
-break}m=A.ca("http://bokebitok.duckdns.org:4000/ChatExceptInsert.php"+("?ChatID="+q.f+"&ExRoomUser="+p[n]+"&SetRoomUser="+q.r))
+break}m=A.ca("https://bokebitok.duckdns.org:4000/ChatExceptInsert.php"+("?ChatID="+q.f+"&ExRoomUser="+p[n]+"&SetRoomUser="+q.r))
 A.iH("phpChatExceptInsert url ===> "+m.i(0))
 s=5
 return A.p(A.h9(m).a5(0,new A.anD(),o),$async$xs)
