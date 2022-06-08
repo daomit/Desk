@@ -52,6 +52,6 @@ self.addEventListener('notificationclick', function (event) {
     }));
     
 
-    // alert('notification received: ', event);
-    // console.log('notification received: ', event);
+     alert('notification received: ', event);
+     console.log('notification received: ', event);
 });
