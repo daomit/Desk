@@ -1,8 +1,5 @@
 importScripts('https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js');
 importScripts('https://www.gstatic.com/firebasejs/8.10.1/firebase-messaging.js');
-//너무 최신버전은 에러난다. 나중에 상위버전이 안정화되면 사용해야할 듯함.
-// importScripts('https://www.gstatic.com/firebasejs/9.1.0/firebase-app.js');
-// importScripts('https://www.gstatic.com/firebasejs/9.1.0/firebase-messaging.js');
 
 firebase.initializeApp({
      apiKey: "AIzaSyCIMGfc2QcEPlr0GlSWJ_ZTFMSjbFDAqOc",
@@ -15,6 +12,11 @@ firebase.initializeApp({
 });
 
 const messaging = firebase.messaging();
+
+messaging.onBackgroundMessage((message) => {
+  console.log("onBackgroundMessage", message);
+});
+
 messaging.setBackgroundMessageHandler(function (payload) {
   console.log('[firebase-messaging-sw.js] Received background message ', payload);
     const promiseChain = clients
