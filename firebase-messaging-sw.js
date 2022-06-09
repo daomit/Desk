@@ -12,11 +12,11 @@ firebase.initializeApp({
      storageBucket: "bokebidesk.appspot.com",
      messagingSenderId: "871010850613",
      appId: "1:871010850613:web:5a1cde0fb989bff0f79e7c",
-     measurementId: "G-SY6YMK0K8T"
 });
 
 const messaging = firebase.messaging();
 messaging.setBackgroundMessageHandler(function (payload) {
+  console.log('[firebase-messaging-sw.js] Received background message ', payload);
     const promiseChain = clients
         .matchAll({
             type: "window",
@@ -50,8 +50,8 @@ self.addEventListener('notificationclick', function (event) {
       if (clients.openWindow)
         return clients.openWindow('/');
     }));
-    
 
-     alert('notification received: ', event);
-     console.log('notification received: ', event);
+
+    // alert('notification received: ', event);
+    // console.log('notification received: ', event);
 });
