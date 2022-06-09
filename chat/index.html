@@ -37,8 +37,6 @@
 
   <title>보깨비톡 DeskTop</title>
   <link rel="manifest" href="manifest.json">
-  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
-  <script src = "https://www.gstatic.com/firebasejs/8.10.1/firebase-messaging.js"> </script>
 
   <style>
 <!--    .loading {-->
@@ -73,60 +71,6 @@
   </style>
 </head>
 <body>
-  <!-- This script installs service_worker.js to provide PWA functionality to
-       application. For more information, see:
-       https://developers.google.com/web/fundamentals/primers/service-workers -->
-  <!--------------------------- FCM 설정------------------------------------->
-  <script type="module">
-    // Your web app's Firebase configuration
-    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-    const firebaseConfig = {
-      apiKey: "AIzaSyCIMGfc2QcEPlr0GlSWJ_ZTFMSjbFDAqOc",
-      authDomain: "bokebidesk.firebaseapp.com",
-      projectId: "bokebidesk",
-      storageBucket: "bokebidesk.appspot.com",
-      messagingSenderId: "871010850613",
-      appId: "1:871010850613:web:5a1cde0fb989bff0f79e7c",
-    };
-
-    // Initialize Firebase
-//     const app = initializeApp(firebaseConfig);
-//     const analytics = getAnalytics(app);
-    firebase.initializeApp(firebaseConfig);
-    const messaging = firebase.messaging();
-
-
-    messaging.setBackgroundMessageHandler(function (payload) {
-        const promiseChain = clients
-            .matchAll({
-                type: "window",
-                includeUncontrolled: true
-            })
-            .then(windowClients => {
-                for (let i = 0; i < windowClients.length; i++) {
-                    const windowClient = windowClients[i];
-                    windowClient.postMessage(payload);
-                }
-            })
-            .then(() => {
-                return registration.showNotification("New Message");
-            });
-        return promiseChain;
-    });
-    self.addEventListener('notificationclick', function (event) {
-        console.log('notification received: ', event)
-    });
-  </script>
-
-  <script>
-    if('serviceWorker' in navigator){
-      window.addEventListener('flutter-first-frame', function(){
-        navigator.serviceWorker.register('firebase-messaging-sw.js');
-        navigator.serviceWorker.register('flutter_service_worker.js?v=2379673607');
-      });
-    }
-  </script>
-  <!--------------------------- FCM 설정 종료------------------------------------->
   <div class='outer-div'>
     <div class='inner-div' style="margin-left: 0px;">
       <img src="img.gif">
@@ -134,21 +78,8 @@
     </div>
   </div>
   <script>
-    var serviceWorkerVersion = '2379673607';
+    var serviceWorkerVersion = '1805221089';
     var scriptLoaded = false;
-<!--    function loadMainDartJs() {-->
-<!--      if (scriptLoaded) {-->
-<!--        return;-->
-<!--      }-->
-<!--      var bokebitokWindow = window.open("bokebitok.html", "bokebitok",'width=500,height=1500');-->
-
-<!--      scriptLoaded = true;-->
-<!--      var scriptTag = bokebitokWindow.document.createElement('script');-->
-<!--      scriptTag.src = 'main.dart.js';-->
-<!--      scriptTag.type = 'application/javascript';-->
-<!--      bokebitokWindow.document.body.append(scriptTag);-->
-
-<!--    }-->
 
     function loadMainDartJs() {
       if (scriptLoaded) {
