@@ -45777,7 +45777,7 @@ o=$.br()
 n=new A.ad5(new A.du(0,o),new A.du("",o))
 n.d=p
 n.VY(0,100,"File Uploading...",B.R)
-m=A.aSG("POST",A.bM("http://bokebitok.duckdns.org/ChatImageLoad.php"))
+m=A.aSG("POST",A.bM("https://bokebitok.duckdns.org/ChatImageLoad.php"))
 p=A.b(q.e,"_selectedFile")
 o=A.azo(p,t.Cm)
 p=J.b_(p)
