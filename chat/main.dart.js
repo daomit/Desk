@@ -45990,43 +45990,43 @@ s=1
 break
 case 1:return A.v(q,r)}})
 return A.w($async$F3,r)},
-afv(a,b,a0){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c=null
-A.ab("index ===> "+A.d(b))
+afv(a,a0,a1){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b=null
+A.ab("index ===> "+A.d(a0))
 A.ab("messages currentChatID ===> "+this.w)
 s=this.fr
 A.ab("messages length ===> "+s.length)
-r=J.h9(b)
-q=r.k(b,s.length-1)&&!0
-if(r.fL(b,s.length-1)){if(s[b].e===this.w){p=!0
+r=J.h9(a0)
+q=r.k(a0,s.length-1)&&!0
+if(r.fL(a0,s.length-1)){if(s[a0].e===this.w){p=!0
 o=""
-n=""}else{for(o="",n="",m=0;l=$.x0,m<l.length;++m)if(s[b].e===l[m].h(0,"chatuser")){o=$.x0[m].h(0,"SUName")
+n=""}else{for(o="",n="",m=0;l=$.x0,m<l.length;++m)if(s[a0].e===l[m].h(0,"chatuser")){o=$.x0[m].h(0,"SUName")
 n=$.x0[m].h(0,"MyPicUrl")}p=!1}k=new A.by(Date.now(),!1)
 l=A.jc(A.ii(k),A.dO(k),A.hv(k),0,0,0,0,!1)
 if(!A.dD(l))A.D(A.eD(l))
-j=A.hU("yyyyMMdd",c).fC(0,new A.by(l,!1))
-i=B.b.G(s[b].r,0,8)
-if(!r.k(b,0)&&s[b].e===s[r.a5(b,1)].e&&s[b].r===s[r.a5(b,1)].r){if(!q&&s[b].r!==s[r.V(b,1)].r)h=!0
-else h=q&&!0
-g=""}else{r=s[b]
-if(r.a==="2"){r=r.r
-g=B.b.G(r,8,10)+":"+B.b.G(r,10,12)}else{r=r.r
-if(j===i)g=B.b.G(r,8,10)+":"+B.b.G(r,10,12)
-else{l=B.b.G(r,0,4)
-f=B.b.G(r,4,6)
-g=l+"-"+f+"-"+f+" "+B.b.G(r,8,10)+":"+B.b.G(r,10,12)}}h=!1}e=s[b].x
-A.ab("readcnt ===> "+e)
-if(e.length===0)e="0"
-r=s[b]
+j=A.hU("yyyyMMdd",b).fC(0,new A.by(l,!1))
+l=s[a0]
+i=l.r
+h=B.b.G(i,0,8)
+if(l.a==="2")g=B.b.G(i,8,10)+":"+B.b.G(i,10,12)
+else if(j===h)g=B.b.G(i,8,10)+":"+B.b.G(i,10,12)
+else{l=B.b.G(i,0,4)
+f=B.b.G(i,4,6)
+g=l+"-"+f+"-"+f+" "+B.b.G(i,8,10)+":"+B.b.G(i,10,12)}if(!r.k(a0,0)&&s[a0].e===s[r.a5(a0,1)].e&&s[a0].r===s[r.a5(a0,1)].r)g=""
+e=(q||s[a0].r!==s[r.V(a0,1)].r)&&!0
+d=s[a0].x
+A.ab("readcnt ===> "+d)
+if(d.length===0)d="0"
+r=s[a0]
 l=r.c
 if(l!==""&&!0){A.ab("messages[index] imagesite ===> "+l)
-B.c.gO(s[b].c.split("/"))
-s=s[b]
+B.c.gO(s[a0].c.split("/"))
+s=s[a0]
 r=s.c
 l=r.length
-d=B.b.G(r,l-4,l).toLowerCase()
-if(B.b.G(d,0,1)===".")d=B.b.G(d,1,4)}else{s=r
-d="000"}return new A.It(q,h,p,o,n,s.a,s.b,s.c,d,s.d,g,e,a0,c)}else{A.ab("messages length Container 1111111111111111111 ===> "+s.length)
-return A.bu(c,c,B.o,c,c,c,c,c,c,c,c,c,c,c)}},
+c=B.b.G(r,l-4,l).toLowerCase()
+if(B.b.G(c,0,1)===".")c=B.b.G(c,1,4)}else{s=r
+c="000"}return new A.It(q,e,p,o,n,s.a,s.b,s.c,c,s.d,g,d,a1,b)}else{A.ab("messages length Container 1111111111111111111 ===> "+s.length)
+return A.bu(b,b,B.o,b,b,b,b,b,b,b,b,b,b,b)}},
 nz(a){return this.ajo(a)},
 ajo(a){var s=0,r=A.x(t.H),q=this,p,o,n,m,l,k,j,i,h,g,f
 var $async$nz=A.r(function(b,c){if(b===1)return A.u(c,r)
