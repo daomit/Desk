@@ -46013,7 +46013,7 @@ else{l=B.b.G(i,0,4)
 f=B.b.G(i,4,6)
 g=l+"-"+f+"-"+f+" "+B.b.G(i,8,10)+":"+B.b.G(i,10,12)}if(!r.k(a0,0)&&s[a0].e===s[r.a5(a0,1)].e&&s[a0].r===s[r.a5(a0,1)].r)g=""
 if(q)e=!0
-else e=(s[a0].r!==s[r.V(a0,1)].r||s[a0].e!==s[r.a5(a0,1)].e)&&!0
+else e=(s[a0].r!==s[r.V(a0,1)].r||s[a0].e!==s[r.V(a0,1)].e)&&!0
 d=s[a0].x
 A.ab("readcnt ===> "+d)
 if(d.length===0)d="0"
