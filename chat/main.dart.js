@@ -46180,7 +46180,7 @@ var $async$oo=A.r(function(d,e){if(d===1)return A.t(e,r)
 while(true)switch(s){case 0:o={}
 o.a=0
 s=3
-return A.q(A.eE(A.bH("http://bokebitok.duckdns.org:4000/ExceptUserExist.php?ChatID="+a+"&ExRoomUser="+b+"&SetRoomUser="+c)).a3(0,new A.amw(o,p),t.P),$async$oo)
+return A.q(A.eE(A.bH("https://bokebitok.duckdns.org/ExceptUserExist.php?ChatID="+a+"&ExRoomUser="+b+"&SetRoomUser="+c)).a3(0,new A.amw(o,p),t.P),$async$oo)
 case 3:q=o.a
 s=1
 break
