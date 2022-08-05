@@ -3,12 +3,11 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "561ad9aa8d0decf9a3e1961069de4c94",
+  "assets/AssetManifest.json": "4c3e97ccdf3ee92360f9bf45b893eb95",
 "assets/assets/icons/hospital_company.png": "5610986d4831ba3d1ebf7160380cbbd5",
 "assets/assets/icons/hospital_jisa.png": "5c0016565f370db6dec5e387302e8df4",
 "assets/assets/icons/hospital_planner.png": "ee3033bfafb228e8c510cefbf5037203",
 "assets/assets/icons/hospital_telephone.png": "81fcfecac3bede1f23509e5de38eb3da",
-"assets/assets/icons/sign_icon.png": "f407e7158a14959841133068260e46d5",
 "assets/assets/icons/sign_icon_outlined.png": "019a1773a2a5e551b37da33f6a2d1ee0",
 "assets/assets/images/animation_03.gif": "7cc1a98a3edc9dfd240427ef4d4fa690",
 "assets/FontManifest.json": "099c8514949392565b1aae45bf680df6",
@@ -25,16 +24,16 @@ const RESOURCES = {
 "assets/fonts/SUIT-Light.ttf": "f4ec7396c79a340bf73e1a78f6df3eaf",
 "assets/fonts/SUIT-Regular.ttf": "ecaa6c57f4e7ed41445e86c876867096",
 "assets/fonts/SUIT-SemiBold.ttf": "e90281959674f17c627f0016e7b9e70f",
-"assets/NOTICES": "3d5f3233cde964d4231f42abed84354b",
+"assets/NOTICES": "fe338f9defa17f46ca9781232508b75f",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "4caab9da1b3876959b4fe0af8ad7dd8b",
-"/": "4caab9da1b3876959b4fe0af8ad7dd8b",
-"main.dart.js": "78122bb0125d705b865fa31c8929e20d",
+"index.html": "1795db49ea2be5c51502afc0c8aff73c",
+"/": "1795db49ea2be5c51502afc0c8aff73c",
+"main.dart.js": "52912743dfdc4570b74e7352b9646fa5",
 "manifest.json": "9c9d983b13fa6b232882a73ab76c2531",
 "version.json": "860b6e80237f5dfacb87264bad953c32"
 };
