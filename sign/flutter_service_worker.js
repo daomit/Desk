@@ -4,11 +4,11 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "assets/AssetManifest.json": "4c3e97ccdf3ee92360f9bf45b893eb95",
-"assets/assets/icons/hospital_company.png": "5610986d4831ba3d1ebf7160380cbbd5",
+"assets/assets/icons/hospital_company.png": "cbb162b1aa824a5e120e725b410b3eb9",
 "assets/assets/icons/hospital_jisa.png": "5c0016565f370db6dec5e387302e8df4",
 "assets/assets/icons/hospital_planner.png": "ee3033bfafb228e8c510cefbf5037203",
 "assets/assets/icons/hospital_telephone.png": "81fcfecac3bede1f23509e5de38eb3da",
-"assets/assets/icons/sign_icon_outlined.png": "019a1773a2a5e551b37da33f6a2d1ee0",
+"assets/assets/icons/sign_icon_outlined.png": "bd742778d2d89e317f8b21ead0646487",
 "assets/assets/images/animation_03.gif": "7cc1a98a3edc9dfd240427ef4d4fa690",
 "assets/FontManifest.json": "099c8514949392565b1aae45bf680df6",
 "assets/fonts/AGGRO-Bold.ttf": "db23c0c4136c806e2d2707c568a8c1b6",
@@ -31,9 +31,9 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "4ccf085077357d3731e8613ff3c9af71",
-"/": "4ccf085077357d3731e8613ff3c9af71",
-"main.dart.js": "508b74db012dbf3fd6691c59e8ef2433",
+"index.html": "a9da595873517c3676f3edad35fbffd3",
+"/": "a9da595873517c3676f3edad35fbffd3",
+"main.dart.js": "d99dd1d80c2c488dfcf3f82c4ec3c55d",
 "manifest.json": "9c9d983b13fa6b232882a73ab76c2531",
 "version.json": "860b6e80237f5dfacb87264bad953c32"
 };
