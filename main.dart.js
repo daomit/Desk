@@ -8832,7 +8832,7 @@ case 9:o=t.N
 p=A.ad(["basetoken","infra4231","authtoken",$.fs,"requestid",$.ch,"target","2","fcmtoken",$.kk],o,o)
 A.O("UpdateFcmToken body===> "+p.i(0))
 s=11
-return A.y(A.ds(A.bb("https://crm.daomit.co.kr/rest/crm/save/sysuser/fcm"),p,null).ah(0,new A.agf(),t.P),$async$CL)
+return A.y(A.ds(A.bb("https://crm.daomit.co.kr/rest/crm/save/sysuser/fcm"),p).ah(0,new A.agf(),t.P),$async$CL)
 case 11:case 10:s=6
 break
 case 7:A.O("FCMNewToken, FCMToken \uc815\ubcf4\uac00 \uc77c\uce58\ud569\ub2c8\ub2e4.")
@@ -8851,7 +8851,7 @@ l=A.bb(u.i)
 A.O("TokenSaveCheck body ===> "+m.i(0))
 A.O("TokenSaveCheck url ===> "+l.i(0))
 s=3
-return A.y(A.ds(l,m,null).ah(0,new A.afW(k),t.P),$async$afV)
+return A.y(A.ds(l,m).ah(0,new A.afW(k),t.P),$async$afV)
 case 3:q=k.a
 s=1
 break
@@ -8990,7 +8990,7 @@ while(true)switch(s){case 0:q=$.eo
 p=t.N
 o=A.ad(["SUSCCode",B.b.L(a,0,10),"SUSTCode",B.b.L(a,10,a.length),"SendToken",c,"fcmData",B.A.im(new A.acT("[\ubcf4\uae68\ube44\ud1a1] \ucc44\ud305\uc11c\ube44\uc2a4 \uc54c\ub9bc",q+" : "+b,new A.acS("00","\ubcf4\uae68\ube44").iG()).iG())],p,p)
 s=2
-return A.y(A.ds(A.bb("http://14.63.172.72:8080/TESTDP/rest/fcm/sendfcm/bokebitok"),o,null).ah(0,new A.arg(),t.P),$async$arf)
+return A.y(A.ds(A.bb("http://14.63.172.72:8080/TESTDP/rest/fcm/sendfcm/bokebitok"),o).ah(0,new A.arg(),t.P),$async$arf)
 case 2:return A.t(null,r)}})
 return A.u($async$arf,r)},
 Zt(a){var s=0,r=A.v(t.H),q,p,o
@@ -9006,7 +9006,7 @@ B.c.sm($.qz,0)
 B.c.sm($.qA,0)
 B.c.sm($.aD6,0)
 s=2
-return A.y(A.ds(o,p,null).ah(0,new A.ars(a),t.P),$async$Zt)
+return A.y(A.ds(o,p).ah(0,new A.ars(a),t.P),$async$Zt)
 case 2:return A.t(null,r)}})
 return A.u($async$Zt,r)},
 Qp(){var s=0,r=A.v(t.H),q,p,o,n
@@ -9017,7 +9017,7 @@ o=t.N
 n=A.ad(["basetoken","infra4231","authtoken",q,"requestid",p,"suid",p],o,o)
 A.O("findUser data ===> "+n.i(0))
 s=2
-return A.y(A.ds(A.bb(u.x),n,null).ah(0,new A.aco(),t.P),$async$Qp)
+return A.y(A.ds(A.bb(u.x),n).ah(0,new A.aco(),t.P),$async$Qp)
 case 2:return A.t(null,r)}})
 return A.u($async$Qp,r)},
 qC(a,b){return A.aTz(a,b)},
@@ -9054,7 +9054,7 @@ n.a=""
 p=t.N
 o=A.ad(["basetoken","infra4231","sucode",a,"validsecond","3600"],p,p)
 s=3
-return A.y(A.ds(A.bb(u.c),o,null).ah(0,new A.ags(n,a,b),t.P),$async$agr)
+return A.y(A.ds(A.bb(u.c),o).ah(0,new A.ags(n,a,b),t.P),$async$agr)
 case 3:q=n.a
 s=1
 break
@@ -9076,7 +9076,7 @@ p=t.N
 o=A.ad(["basetoken","infra4231","suid",a,"supw",b,"validsecond","86000"],p,p)
 A.O("setLoginAuthToken body ===>  "+o.i(0))
 s=3
-return A.y(A.ds(A.bb(u.c),o,null).ah(0,new A.as9(n),t.P),$async$as8)
+return A.y(A.ds(A.bb(u.c),o).ah(0,new A.as9(n),t.P),$async$as8)
 case 3:q=n.a
 s=1
 break
@@ -22304,7 +22304,7 @@ CA:function CA(a,b){this.a=a
 this.b=b},
 L3:function L3(){},
 ec(a){return A.Zj(new A.art(a,null),t.Wd)},
-ds(a,b,c){return A.Zj(new A.as1(a,c,b,null),t.Wd)},
+ds(a,b){return A.Zj(new A.as1(a,null,b,null),t.Wd)},
 Zj(a,b){return A.aSI(a,b,b)},
 aSI(a,b,c){var s=0,r=A.v(c),q,p=2,o,n=[],m,l
 var $async$Zj=A.q(function(d,e){if(d===1){o=e
@@ -41501,7 +41501,7 @@ A.O("visible users sucodes ===> "+n)
 o=t.N
 m=A.ad(["basetoken","infra4231","authtoken",$.fs,"requestid",$.ch,"sucodes",n],o,o)
 s=2
-return A.y(A.ds(A.bb(u.b),m,null).ah(0,new A.ai8(q),t.P).fW(new A.ai9(q)),$async$jU)
+return A.y(A.ds(A.bb(u.b),m).ah(0,new A.ai8(q),t.P).fW(new A.ai9(q)),$async$jU)
 case 2:return A.t(null,r)}})
 return A.u($async$jU,r)},
 M(a,b){var s,r,q,p,o,n,m,l,k,j,i,h,g,f=this,e=null,d=b.O(t.l).f.a
@@ -41832,7 +41832,7 @@ case 2:q.S(new n.aii(c))
 p=t.N
 o=A.ad(["basetoken","infra4231","authtoken",$.fs,"requestid",$.ch,"suconnectdesktopyn",a],p,p)
 s=3
-return A.y(A.ds(A.bb("https://crm.daomit.co.kr/rest/crm/save/sysuser/suconnectdesktopyn"),o,null).ah(0,new A.aij(q),t.P),$async$nA)
+return A.y(A.ds(A.bb("https://crm.daomit.co.kr/rest/crm/save/sysuser/suconnectdesktopyn"),o).ah(0,new A.aij(q),t.P),$async$nA)
 case 3:return A.t(null,r)}})
 return A.u($async$nA,r)},
 aV(){B.at.j2(window,"unload",new A.aj1(this))
@@ -41877,7 +41877,7 @@ A.O("visible users sucodes ===> "+n)
 o=t.N
 m=A.ad(["basetoken","infra4231","authtoken",$.fs,"requestid",$.ch,"sucodes",n],o,o)
 s=2
-return A.y(A.ds(A.bb(u.b),m,null).ah(0,new A.aiO(q),t.P).fW(new A.aiP(q)),$async$jU)
+return A.y(A.ds(A.bb(u.b),m).ah(0,new A.aiO(q),t.P).fW(new A.aiP(q)),$async$jU)
 case 2:return A.t(null,r)}})
 return A.u($async$jU,r)},
 yM(){var s=0,r=A.v(t.H),q=this
@@ -42249,7 +42249,7 @@ A.O("visible users sucodes ===> "+m)
 n=t.N
 l=A.ad(["basetoken","infra4231","authtoken",$.fs,"requestid",$.ch,"sucodes",m],n,n)
 s=4
-return A.y(A.ds(A.bb(u.b),l,null).ah(0,new A.ajf(k),t.P).fW(new A.ajg(k)),$async$$1)
+return A.y(A.ds(A.bb(u.b),l).ah(0,new A.ajf(k),t.P).fW(new A.ajg(k)),$async$$1)
 case 4:case 3:return A.t(null,r)}})
 return A.u($async$$1,r)},
 $S:154}
@@ -42335,7 +42335,7 @@ a1=J.a_6(B.c.gK(a),10)
 l.c=""
 a2=A.ad(["basetoken","infra4231","sucode",a1,"validsecond","3600"],a6,a6)
 s=11
-return A.y(A.ds(A.bb(u.c),a2,null).ah(0,new A.ajk(l),a7),$async$$1)
+return A.y(A.ds(A.bb(u.c),a2).ah(0,new A.ajk(l),a7),$async$$1)
 case 11:h=A.b(p.a[m].a,"RoomChatID")
 f=l.a
 f.toString
@@ -42444,7 +42444,7 @@ if($.dz===a0)B.c.dU(b,a)}a0=J.a_6(B.c.gK(b),10)
 k.c=""
 a1=A.ad(["basetoken","infra4231","sucode",a0,"validsecond","3600"],a4,a4)
 s=11
-return A.y(A.ds(A.bb(u.c),a1,null).ah(0,new A.aiJ(k),a5),$async$$1)
+return A.y(A.ds(A.bb(u.c),a1).ah(0,new A.aiJ(k),a5),$async$$1)
 case 11:g=A.b(p.a[l].a,"RoomChatID")
 a2=k.a
 a2.toString
@@ -42966,7 +42966,7 @@ n=t.N
 m=A.ad(["basetoken","infra4231","authtoken",p,"requestid",o,"suid",o],n,n)
 A.O("findUser data ===> "+m.i(0))
 s=2
-return A.y(A.ds(A.bb(u.x),m,null).ah(0,new A.ajT(q),t.P),$async$wH)
+return A.y(A.ds(A.bb(u.x),m).ah(0,new A.ajT(q),t.P),$async$wH)
 case 2:return A.t(null,r)}})
 return A.u($async$wH,r)},
 rB(){var s=0,r=A.v(t.H),q=this,p,o
@@ -43045,7 +43045,7 @@ o=$.ch
 n=t.N
 m=A.ad(["basetoken","infra4231","authtoken",p,"requestid",o,"targetsuid",o,"profile",$.pR],n,n)
 s=2
-return A.y(A.ds(A.bb("https://crm.daomit.co.kr/rest/crm/save/sysuser/profile"),m,null).ah(0,new A.ak1(q),t.P),$async$xU)
+return A.y(A.ds(A.bb("https://crm.daomit.co.kr/rest/crm/save/sysuser/profile"),m).ah(0,new A.ak1(q),t.P),$async$xU)
 case 2:return A.t(null,r)}})
 return A.u($async$xU,r)},
 tY(){var s=0,r=A.v(t.H),q=this,p,o,n
@@ -43056,7 +43056,7 @@ p=n?"0":"1"
 n=t.N
 o=A.ad(["basetoken","infra4231","authtoken",$.fs,"requestid",$.ch,"sucode",$.dz,"sufcmpushreceiveyn",p],n,n)
 s=2
-return A.y(A.ds(A.bb("https://crm.daomit.co.kr/rest/crm/save/sysuser/sufcmpushreceiveyn"),o,null).ah(0,new A.ajV(),t.P),$async$tY)
+return A.y(A.ds(A.bb("https://crm.daomit.co.kr/rest/crm/save/sysuser/sufcmpushreceiveyn"),o).ah(0,new A.ajV(),t.P),$async$tY)
 case 2:return A.t(null,r)}})
 return A.u($async$tY,r)}}
 A.ajU.prototype={
@@ -43214,7 +43214,7 @@ while(true)switch(s){case 0:p=t.N
 o=A.ad(["basetoken","infra4231","name",q.at,"birthday",q.ax,"id",q.as],p,p)
 A.O("exist_UserChk body ===> "+o.i(0))
 s=2
-return A.y(A.ds(A.bb("https://crm.daomit.co.kr/rest/crm/get/sysuser/exist"),o,null).ah(0,new A.akA(q),t.P),$async$ui)
+return A.y(A.ds(A.bb("https://crm.daomit.co.kr/rest/crm/get/sysuser/exist"),o).ah(0,new A.akA(q),t.P),$async$ui)
 case 2:return A.t(null,r)}})
 return A.u($async$ui,r)},
 vX(a,b,c){return this.ac2(a,b,c)},
@@ -43385,14 +43385,13 @@ s=b.a
 if(s<700)s-=s*0.2
 else s=s<1300?300:s*0.25
 return A.K(r,A.Kx(!1,B.a4a,B.h,r,r,r,r,r,new A.alS(this),A.yg(r,r,r,r,r,r,r,r,r,B.k,r,r,B.oP,r,new A.ce(A.bH(3),B.u),r,r,r,r)),B.h,r,r,r,r,50,r,r,r,r,r,s)},
-lA(){var s=0,r=A.v(t.H),q=this,p,o,n
+lA(){var s=0,r=A.v(t.H),q=this,p,o
 var $async$lA=A.q(function(a,b){if(a===1)return A.r(b,r)
 while(true)switch(s){case 0:p=t.N
 o=A.ad(["basetoken","infra4231","suid",$.ch,"supw",$.hj,"validsecond","3600"],p,p)
-n=A.ad(["Access-Control-Allow-Origin","*","Access-Control-Allow-Methods","POST"],p,p)
 A.O("USER_INFO_SUId ===> "+$.ch)
 A.O("USER_INFO_SUPw ===> "+$.hj)
-A.ds(A.bb(u.c),o,n).ah(0,new A.am_(q),t.P)
+A.ds(A.bb(u.c),o).ah(0,new A.am_(q),t.P)
 return A.t(null,r)}})
 return A.u($async$lA,r)},
 i1(){var s=0,r=A.v(t.H),q=this
@@ -43592,7 +43591,7 @@ break
 case 2:p=t.N
 o=A.ad(["basetoken","infra4231","authkey",$.avG],p,p)
 s=4
-return A.y(A.ds(A.bb("https://crm.daomit.co.kr/rest/crm/get/chat/user/info/authkey"),o,null).ah(0,new A.anY(),t.P),$async$lA)
+return A.y(A.ds(A.bb("https://crm.daomit.co.kr/rest/crm/get/chat/user/info/authkey"),o).ah(0,new A.anY(),t.P),$async$lA)
 case 4:$.ch=$.aB1
 $.hj=$.aB2
 case 3:p=$.ch
@@ -43600,7 +43599,7 @@ if(p===""||!1){if($.qE)$.qE=!1}else{n=t.N
 m=A.ad(["basetoken","infra4231","suid",p,"supw",$.hj,"validsecond","3600"],n,n)
 A.O("USER_INFO_SUId ===> "+$.ch)
 A.O("USER_INFO_SUPw ===> "+$.hj)
-A.ds(A.bb(u.c),m,null).ah(0,new A.anZ(q),t.P)}return A.t(null,r)}})
+A.ds(A.bb(u.c),m).ah(0,new A.anZ(q),t.P)}return A.t(null,r)}})
 return A.u($async$lA,r)},
 i1(){var s=0,r=A.v(t.H),q=this,p,o
 var $async$i1=A.q(function(a,b){if(a===1)return A.r(b,r)
@@ -43619,7 +43618,7 @@ case 6:p=t.N
 o=A.ad(["basetoken","infra4231","suid",$.ch,"supw",$.hj,"validsecond","3600"],p,p)
 A.O("data ===> "+o.i(0))
 s=7
-return A.y(A.ds(A.bb(u.c),o,null).ah(0,new A.anV(q),t.P),$async$i1)
+return A.y(A.ds(A.bb(u.c),o).ah(0,new A.anV(q),t.P),$async$i1)
 case 7:case 4:return A.t(null,r)}})
 return A.u($async$i1,r)},
 tG(){var s=0,r=A.v(t.H),q=this,p
@@ -44034,7 +44033,7 @@ n=A.ad(["basetoken","infra4231","authtoken",$.fs,"requestid",a,"supw",b],o,o)
 A.O("setChangePassword jsonString ===> "+n.i(0))
 A.O("setChangePassword supw ===> "+b)
 s=3
-return A.y(A.ds(A.bb("https://crm.daomit.co.kr/rest/crm/save/sysuser/password/change"),n,null).ah(0,new A.anA(m,p,"infra4231"),t.P).fW(new A.anB(m,p)),$async$tZ)
+return A.y(A.ds(A.bb("https://crm.daomit.co.kr/rest/crm/save/sysuser/password/change"),n).ah(0,new A.anA(m,p,"infra4231"),t.P).fW(new A.anB(m,p)),$async$tZ)
 case 3:q=m.a
 s=1
 break
@@ -44148,7 +44147,7 @@ m=A.ad(["basetoken",q.c,"authtoken",n,"requestid",$.ch,"target","1","targetsucod
 l=A.bb(u.i)
 A.O("uploadFile user ===> "+m.i(0))
 s=10
-return A.y(A.ds(l,m,null).ah(0,new A.anz("\ube44\ubc00\ubc88\ud638 \ubcc0\uacbd\uc774 \uc815\uc0c1\uc801\uc73c\ub85c \uc644\ub8cc \ub418\uc5c8\uc2b5\ub2c8\ub2e4.."),t.P),$async$$1)
+return A.y(A.ds(l,m).ah(0,new A.anz("\ube44\ubc00\ubc88\ud638 \ubcc0\uacbd\uc774 \uc815\uc0c1\uc801\uc73c\ub85c \uc644\ub8cc \ub418\uc5c8\uc2b5\ub2c8\ub2e4.."),t.P),$async$$1)
 case 10:case 9:q.a.a=!0
 s=6
 break
@@ -77661,7 +77660,6 @@ a9e(a,b,c){return this.qk(a,b,c,null,null)},
 a9f(a,b,c,d,e){var s=0,r=A.v(t.Wd),q,p=this,o,n,m,l
 var $async$qk=A.q(function(f,g){if(f===1)return A.r(g,r)
 while(true)switch(s){case 0:m=A.aO1(a,b)
-if(c!=null)m.r.N(0,c)
 if(d!=null){o=t.N
 o=d.j7(d,o,o)
 n=m.gjM()
