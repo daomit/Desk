@@ -34783,7 +34783,7 @@ o=B.i.h(n)
 m=q.c
 m.toString
 s=5
-return A.a3(A.abI(m,new A.rx(B.Ey,new A.M(4294886199),null),"\ub9cc\ub8cc\ub41c \uc804\uc1a1 Url \ucf54\ub4dc \uc785\ub2c8\ub2e4."+p+" "+o),$async$lf)
+return A.a3(A.abI(m,new A.rx(B.Ey,new A.M(4294886199),null),"\ub9cc\ub8cc\ub41c \uc804\uc1a1 Url \ucf54\ub4dc \uc785\ub2c8\ub2e4.\n\uc804\uc1a1\uc77c\uc790:"+p+"\n\ucd08\uacfc\uc2dc\uac04:"+o),$async$lf)
 case 5:case 4:A.cq("difference ===> "+n+" minutes")
 return A.a_(null,r)}})
 return A.a0($async$lf,r)},
