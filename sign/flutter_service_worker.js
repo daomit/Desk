@@ -30,13 +30,14 @@ const RESOURCES = {
 "assets/packages/fluttertoast/assets/toastify.css": "a85675050054f179444bc5ad70ffc635",
 "assets/packages/fluttertoast/assets/toastify.js": "e7006a0a033d834ef9414d48db3be6fc",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
+"flutter.js": "eb2682e33f25cd8f1fc59011497c35f8",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "feee1081b9f8a0ee73c7f5d7055ab927",
-"/": "feee1081b9f8a0ee73c7f5d7055ab927",
-"main.dart.js": "ea2c0fdd0a4f8ce596ae9c6dcdb9073e",
+"index.html": "ed7a24a0ea1e20feea71048afb92eff3",
+"/": "ed7a24a0ea1e20feea71048afb92eff3",
+"main.dart.js": "e0bb928695c04cbb9ab7b9cf8c92606b",
 "manifest.json": "9c9d983b13fa6b232882a73ab76c2531",
 "version.json": "860b6e80237f5dfacb87264bad953c32"
 };

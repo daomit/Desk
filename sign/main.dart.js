@@ -34862,7 +34862,7 @@ $0(){var s=0,r=A.a1(t.H),q=this,p,o,n,m,l,k,j,i
 var $async$$0=A.a2(function(a,b){if(a===1)return A.Z(b,r)
 while(true)switch(s){case 0:i=q.a
 s=4
-return A.a4(i.qN(q.b,"\uc11c\uba85\uc744 \uc804\uc1a1 \ud558\uc2dc\uaca0\uc2b5\ub2c8\uae4c?"),$async$$0)
+return A.a4(i.qN(q.b,"\uc11c\uba85\uc744 \ud50c\ub798\ub108\uc5d0\uac8c \uc804\uc1a1 \ud558\uc2dc\uaca0\uc2b5\ub2c8\uae4c?"),$async$$0)
 case 4:s=b==="OK"?2:3
 break
 case 2:p=A.mM(170,400)
