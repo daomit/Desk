@@ -8999,7 +8999,7 @@ n=B.b.I(a,0,10)
 m=B.b.I(a,10,a.length)
 l=B.B.f2(new A.Cd("[\ubcf4\uae68\ube44] \ucc44\ud305\uc11c\ube44\uc2a4 \uc54c\ub9bc",o+" : "+b,new A.Cc("00","\ubcf4\uae68\ube44").fv()).fv())
 o=t.N
-q=A.a1(["content","upgrade-insecure-requests","http-equiv","Content-Security-Policy"],o,o)
+q=A.a1(["content-type","application/json","accept","application/json","content","upgrade-insecure-requests","http-equiv","Content-Security-Policy"],o,o)
 p=A.a1(["SUSCCode",n,"SUSTCode",m,"SendToken",c,"fcmData",l],o,o)
 A.X("fcmSendBokebi body ===> "+p.i(0))
 s=2
@@ -9013,7 +9013,7 @@ n=B.b.I(a,0,10)
 m=B.b.I(a,10,a.length)
 l=B.B.f2(new A.Cd("[\ubcf4\uae68\ube44\ud1a1] \ucc44\ud305\uc11c\ube44\uc2a4 \uc54c\ub9bc",o+" : "+b,new A.Cc("00","\ubcf4\uae68\ube44").fv()).fv())
 o=t.N
-q=A.a1(["content","upgrade-insecure-requests","http-equiv","Content-Security-Policy"],o,o)
+q=A.a1(["content-type","application/json","accept","application/json","content","upgrade-insecure-requests","http-equiv","Content-Security-Policy"],o,o)
 p=A.a1(["SUSCCode",n,"SUSTCode",m,"SendToken",c,"fcmData",l],o,o)
 A.X("fcmSend body =====> "+p.i(0))
 s=2
@@ -9029,7 +9029,7 @@ A.X("fcmSendDesk susccode ====> "+m)
 A.X("fcmSendDesk sustcode ====> "+l)
 q=B.B.f2(new A.Cd("[\ubcf4\uae68\ube44 \ub370\uc2a4\ud06c] \ucc44\ud305\uc11c\ube44\uc2a4 \uc54c\ub9bc",n+" : "+b,new A.Cc("00","\ubcf4\uae68\ube44 \ub370\uc2a4\ud06c").fv()).fv())
 n=t.N
-p=A.a1(["content","upgrade-insecure-requests","http-equiv","Content-Security-Policy"],n,n)
+p=A.a1(["content-type","application/json","accept","application/json","content","upgrade-insecure-requests","http-equiv","Content-Security-Policy"],n,n)
 o=A.a1(["SUSCCode",m,"SUSTCode",l,"SendToken",c,"fcmData",q],n,n)
 A.X("fcmSendDesk body ====> "+o.i(0))
 s=2
