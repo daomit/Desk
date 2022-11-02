@@ -34,7 +34,7 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = '1163508370';
+    var serviceWorkerVersion = '137057204';
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
@@ -52,6 +52,14 @@
       }).then(function(appRunner) {
         return appRunner.runApp();
       });
+    });
+
+    window.addEventListener('beforeunload', function(event) {
+       console.log('I am the 2nd one.');
+    });
+
+    window.addEventListener('unload', function(event) {
+      console.log('I am the 4th and last one…');
     });
   </script>
 </body>
